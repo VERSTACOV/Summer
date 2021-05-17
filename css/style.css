@@ -6,23 +6,31 @@
   border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
   display: block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-family: "Open Sans";
@@ -34,7 +42,9 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font-family: "Open Sans";
 }
 
@@ -51,7 +61,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
 }
 
@@ -67,13 +78,18 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
 }
 
 body {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 body.lock {
@@ -163,7 +179,7 @@ body.lock {
 
 @media (min-width: 991px) {
   .btn:hover {
-    background-color: #DEB37E;
+    background-color: #deb37e;
   }
 }
 
@@ -288,7 +304,9 @@ body.lock {
     z-index: 15;
     transition: 0.3s;
   }
-  .header__icon span, .header__icon:before, .header__icon:after {
+  .header__icon span,
+  .header__icon:before,
+  .header__icon:after {
     width: 100%;
     height: 10%;
     display: block;
@@ -298,8 +316,9 @@ body.lock {
     top: 0;
     transition: 0.3s;
   }
-  .header__icon:before, .header__icon:after {
-    content: '';
+  .header__icon:before,
+  .header__icon:after {
+    content: "";
   }
   .header__icon:before {
     top: 19px;
@@ -365,11 +384,11 @@ body.lock {
 }
 
 .menu__list li:after {
-  content: '';
+  content: "";
   width: 3px;
   height: 20px;
   display: block;
-  background-color: #DEB37E;
+  background-color: #deb37e;
   position: absolute;
   right: -2px;
   top: 0;
@@ -402,6 +421,7 @@ body.lock {
   position: relative;
   left: 0;
   top: 0;
+  overflow: hidden;
 }
 
 .menu__input {
@@ -420,7 +440,7 @@ body.lock {
 
 .menu__input:focus {
   opacity: 1;
-  background-color: #C3C0BC;
+  background-color: #c3c0bc;
 }
 
 .menu__icon {
@@ -636,7 +656,8 @@ body.lock {
   }
 }
 
-.socials__twit, .socials__face {
+.socials__twit,
+.socials__face {
   margin: 0px 5px 0px 5px;
 }
 
@@ -895,7 +916,7 @@ body.lock {
 
 @media (min-width: 991px) {
   .lets__button:hover {
-    background-color: #E2A355;
+    background-color: #e2a355;
   }
 }
 
@@ -1090,7 +1111,7 @@ body.lock {
 
 @media (min-width: 991px) {
   .block-one__button:hover {
-    background-color: #B1A086;
+    background-color: #b1a086;
   }
 }
 
@@ -1205,7 +1226,7 @@ body.lock {
 
 @media (min-width: 991px) {
   .block-two__button:hover {
-    background-color: #B1A086;
+    background-color: #b1a086;
   }
 }
 
