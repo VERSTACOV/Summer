@@ -421,7 +421,6 @@ body.lock {
   position: relative;
   left: 0;
   top: 0;
-  overflow: hidden;
 }
 
 .menu__input {
